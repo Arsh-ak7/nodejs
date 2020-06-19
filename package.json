@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My First package",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arsh-ak7/nodejs.git"
+  },
+  "author": "Arsh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arsh-ak7/nodejs/issues"
+  },
+  "homepage": "https://github.com/Arsh-ak7/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
