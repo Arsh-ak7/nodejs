@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejs Ex</title>
+</head>
+<body>
+	<h1>Looking for : <%= data.userQuery %> </h1> <!--'=' sign is used only when we want to output data ie show data on screen -->
+	<% if(data.loggedIn){ %>
+	<h2>You are logged as : <%= data.username %></h2>
+	<% } %>
+	<ul>
+		<% data.searchResults.forEach(result=>{ %>  <!-- no '=' sign as we dont need to show this on screen rather use this as a part of the code-->  
+			<li><%= result %></li> 
+		<% }); %>
+		</ul> 
+</body>
+</html>

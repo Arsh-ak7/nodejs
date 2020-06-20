@@ -29,7 +29,7 @@
 			e.preventDefault();
 			$.ajax({
 				url:'/',
-				type='post',
+				type:'post',
 				contentType:'application/json',
 				data:JSON.stringify($('#form').serializeArray()),
 				success:(response)=>{
